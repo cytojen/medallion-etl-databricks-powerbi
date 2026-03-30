@@ -1,5 +1,13 @@
 # Medallion Architecture ETL with Databricks & Power BI
 
+![AWS](https://img.shields.io/badge/AWS_S3-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-EF3E42?style=for-the-badge&logo=databricks&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Delta_Lake-00A1C9?style=for-the-badge&logo=databricks&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+
 I built an end-to-end data engineering pipeline using the **medallion architecture** (Bronze -> Silver -> Gold), powered by **AWS S3** and **Databricks**, with the final output visualized in a **Power BI dashboard** - covering everything from raw data ingestion all the way to a business-ready BI report.
 
 ---
