@@ -210,27 +210,6 @@ bronze.orders                  merged     n            n              s
 
 ---
 
-## Repository Structure
-
-```
-medallion-etl-databricks-powerbi/
-├── notebooks/
-│   ├── free_tier/
-│   │   ├── 01_bronze.py          ← Incremental ingestion via Delta MERGE (CSV -> Parquet)
-│   │   ├── 02_silver.py          ← Cleaning, joining, enrichment
-│   │   └── 03_gold.py            ← Business aggregations
-│   └── premium/
-│       ├── dlt_pipeline.py       ← DLT version (Volumes, batch)
-│       └── dlt_pipeline_s3.py    ← DLT version (S3, Auto Loader)
-├── assets/
-│   ├── architecture_free.png     ← Free tier architecture diagram
-│   ├── architecture_s3_dlt.png   ← S3 + DLT architecture diagram
-│   └── dashboard.png             ← Power BI dashboard screenshot
-└── README.md
-```
-
----
-
 ## How to Reproduce (Free Tier)
 
 1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/javierspdatabase/global-online-orders/data)
