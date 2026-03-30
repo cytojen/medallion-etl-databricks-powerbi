@@ -10,6 +10,8 @@
 
 I built an end-to-end data engineering pipeline using the **medallion architecture** (Bronze -> Silver -> Gold), powered by **AWS S3** and **Databricks**, with the final output visualized in a **Power BI dashboard** - covering everything from raw data ingestion all the way to a business-ready BI report.
 
+**Live Dashboard:** [View on Power BI](https://app.powerbi.com/view?r=eyJrIjoiYjFkMThhYjktNmUxZi00ZmZlLWIzYjgtM2VmODRhYzdmNTFjIiwidCI6IjRkYTk4NTcxLWRjZWEtNDgzOS04ZmIxLTBiZGQ1ZGM5NjlmOSIsImMiOjEwfQ%3D%3D)
+
 ---
 
 ## About
@@ -156,6 +158,8 @@ Business-ready aggregations served directly to Power BI via Databricks SQL Wareh
 ## Power BI Dashboard
 
 To close the loop on the project, I connected Power BI directly to Databricks via SQL Warehouse and built a 4-page dashboard on top of the Gold layer tables. The goal was to make the pipeline output actually usable - not just tables sitting in a database, but a report someone could open and draw insights from.
+
+**Live Dashboard:** [View on Power BI](https://app.powerbi.com/view?r=eyJrIjoiYjFkMThhYjktNmUxZi00ZmZlLWIzYjgtM2VmODRhYzdmNTFjIiwidCI6IjRkYTk4NTcxLWRjZWEtNDgzOS04ZmIxLTBiZGQ1ZGM5NjlmOSIsImMiOjEwfQ%3D%3D)
 
 | Page | Key Visuals |
 |---|---|
